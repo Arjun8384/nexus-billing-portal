@@ -6,7 +6,7 @@ import type {
 import { StatusCodes } from "http-status-codes";
 
 import type { JwtPayload } from "@/types/auth";
-import { AppError } from "@/utils/app-error";
+import { AppError } from "../utils/app-error";
 import { verifyToken } from "@/utils/jwt";
 
 export interface AuthenticatedRequest

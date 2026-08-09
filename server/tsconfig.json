@@ -5,34 +5,24 @@
     "moduleResolution": "NodeNext",
     "rootDir": "./src",
     "outDir": "./dist",
+    
     "paths": {
       "@/*": ["./src/*"]
     },
 
     "strict": true,
-
     "esModuleInterop": true,
-
     "allowSyntheticDefaultImports": true,
-
     "forceConsistentCasingInFileNames": true,
-
     "skipLibCheck": true,
-
     "resolveJsonModule": true,
-
     "isolatedModules": true,
-
     "noImplicitReturns": true,
-
     "noUnusedLocals": true,
-
     "noUnusedParameters": true,
-
     "types": ["node"]
   },
 
   "include": ["src"],
-
   "exclude": ["node_modules", "dist"]
 }

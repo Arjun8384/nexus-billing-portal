@@ -6,7 +6,7 @@ import type {
 
 import { StatusCodes } from "http-status-codes";
 
-import { AppError } from "@/utils/app-error";
+import { AppError } from "../utils/app-error";
 
 export function errorMiddleware(
   error: Error,
